@@ -1,1 +1,181 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 
+msgid "plugins.generic.academiaEdu.displayName"
+msgstr "Academia.edu Integration"
+
+msgid "plugins.generic.academiaEdu.description"
+msgstr "Metadata, upload package and OAI-PMH tools for sharing OJS 3.5 articles on Academia.edu and indexing services."
+
+msgid "plugins.generic.academiaEdu.action.report"
+msgstr "Metadata & OAI report"
+
+msgid "plugins.generic.academiaEdu.settings.intro"
+msgstr "This plugin prepares published articles for Academia.edu and indexers. It does not store Academia.edu credentials or automate login."
+
+msgid "plugins.generic.academiaEdu.settings.buttonLabel"
+msgstr "Article-page panel label"
+
+msgid "plugins.generic.academiaEdu.settings.panelVisibility"
+msgstr "Who sees the upload-package panel on article pages"
+
+msgid "plugins.generic.academiaEdu.settings.visibility.public"
+msgstr "Everyone"
+
+msgid "plugins.generic.academiaEdu.settings.visibility.loggedIn"
+msgstr "Logged-in users only"
+
+msgid "plugins.generic.academiaEdu.settings.visibility.hidden"
+msgstr "Nobody (metadata tags only)"
+
+msgid "plugins.generic.academiaEdu.settings.showMetaTags"
+msgstr "Add Open Graph and citation meta tags (citation tags are skipped if the Google Scholar plugin is enabled)"
+
+msgid "plugins.generic.academiaEdu.settings.showJsonLd"
+msgstr "Add JSON-LD ScholarlyArticle metadata"
+
+msgid "plugins.generic.academiaEdu.settings.showDublinCore"
+msgstr "Add Dublin Core metadata (skipped if the Dublin Core plugin is enabled)"
+
+msgid "plugins.generic.academiaEdu.settings.addOaiLink"
+msgstr "Add per-article OAI-PMH record link in the page head"
+
+msgid "plugins.generic.academiaEdu.settings.showBibtex"
+msgstr "Offer downloadable BibTeX"
+
+msgid "plugins.generic.academiaEdu.settings.showRis"
+msgstr "Offer downloadable RIS"
+
+msgid "plugins.generic.academiaEdu.missing.title"
+msgstr "title"
+
+msgid "plugins.generic.academiaEdu.missing.authors"
+msgstr "authors"
+
+msgid "plugins.generic.academiaEdu.missing.abstract"
+msgstr "abstract"
+
+msgid "plugins.generic.academiaEdu.missing.datePublished"
+msgstr "publication date"
+
+msgid "plugins.generic.academiaEdu.missing.doiOrPdf"
+msgstr "DOI or PDF galley"
+
+msgid "plugins.generic.academiaEdu.missing.doi"
+msgstr "DOI"
+
+msgid "plugins.generic.academiaEdu.missing.pdf"
+msgstr "PDF galley"
+
+msgid "plugins.generic.academiaEdu.missing.keywords"
+msgstr "keywords"
+
+msgid "plugins.generic.academiaEdu.missing.orcid"
+msgstr "author ORCID"
+
+msgid "plugins.generic.academiaEdu.missing.license"
+msgstr "license URL"
+
+msgid "plugins.generic.academiaEdu.missing.issue"
+msgstr "issue assignment"
+
+msgid "plugins.generic.academiaEdu.article.badgeReady"
+msgstr "Academia.edu upload package ready"
+
+msgid "plugins.generic.academiaEdu.article.badgeIncomplete"
+msgstr "Metadata incomplete"
+
+msgid "plugins.generic.academiaEdu.article.missingIntro"
+msgstr "Missing required metadata"
+
+msgid "plugins.generic.academiaEdu.article.packageTitle"
+msgstr "Quick upload package (copy each field into Academia.edu's \"Add new work\" form)"
+
+msgid "plugins.generic.academiaEdu.article.fTitle"
+msgstr "Title"
+
+msgid "plugins.generic.academiaEdu.article.fAuthors"
+msgstr "Authors"
+
+msgid "plugins.generic.academiaEdu.article.fAbstract"
+msgstr "Abstract"
+
+msgid "plugins.generic.academiaEdu.article.fKeywords"
+msgstr "Keywords"
+
+msgid "plugins.generic.academiaEdu.article.fCitation"
+msgstr "Citation / published-in line"
+
+msgid "plugins.generic.academiaEdu.article.fDoi"
+msgstr "DOI link"
+
+msgid "plugins.generic.academiaEdu.article.fUrl"
+msgstr "Article URL"
+
+msgid "plugins.generic.academiaEdu.article.copy"
+msgstr "Copy"
+
+msgid "plugins.generic.academiaEdu.article.copied"
+msgstr "Copied"
+
+msgid "plugins.generic.academiaEdu.article.downloadPdf"
+msgstr "Download PDF"
+
+msgid "plugins.generic.academiaEdu.article.downloadPackage"
+msgstr "Download package (.txt)"
+
+msgid "plugins.generic.academiaEdu.article.downloadBib"
+msgstr "Download .bib"
+
+msgid "plugins.generic.academiaEdu.article.downloadRis"
+msgstr "Download .ris"
+
+msgid "plugins.generic.academiaEdu.article.note"
+msgstr "This only prepares the data. Nothing is sent to Academia.edu automatically; the author uploads the work from their own account and must hold the rights to share the file."
+
+msgid "plugins.generic.academiaEdu.report.oaiTitle"
+msgstr "OAI-PMH endpoint"
+
+msgid "plugins.generic.academiaEdu.report.oaiOn"
+msgstr "OAI-PMH is enabled"
+
+msgid "plugins.generic.academiaEdu.report.oaiOff"
+msgstr "OAI-PMH is disabled in config.inc.php ([oai] oai = On is required)"
+
+msgid "plugins.generic.academiaEdu.report.oaiTest"
+msgstr "Test endpoint (Identify)"
+
+msgid "plugins.generic.academiaEdu.report.oaiOk"
+msgstr "✓ Endpoint responded correctly"
+
+msgid "plugins.generic.academiaEdu.report.oaiFail"
+msgstr "✗ No valid OAI-PMH response"
+
+msgid "plugins.generic.academiaEdu.report.oaiHelp"
+msgstr "OJS already exposes this endpoint. Register its URL with harvesters such as BASE, CORE or OpenAIRE so they collect your records automatically. Academia.edu does not document OAI-PMH harvesting, so this plugin does not claim that it will."
+
+msgid "plugins.generic.academiaEdu.report.articlesTitle"
+msgstr "Article metadata readiness"
+
+msgid "plugins.generic.academiaEdu.report.colTitle"
+msgstr "Article"
+
+msgid "plugins.generic.academiaEdu.report.colStatus"
+msgstr "Status"
+
+msgid "plugins.generic.academiaEdu.report.colMissing"
+msgstr "Missing (required)"
+
+msgid "plugins.generic.academiaEdu.report.colRecommended"
+msgstr "Missing (recommended)"
+
+msgid "plugins.generic.academiaEdu.report.limit"
+msgstr "Showing up to {$limit} published articles."
+
+msgid "plugins.generic.academiaEdu.report.none"
+msgstr "No published articles found."
